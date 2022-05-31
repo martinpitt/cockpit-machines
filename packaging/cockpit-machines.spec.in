@@ -22,7 +22,7 @@ Summary:        Cockpit user interface for virtual machines
 License:        LGPLv2+ and MIT
 URL:            https://github.com/cockpit-project/cockpit-machines
 
-Source0:        https://github.com/cockpit-project/%{name}/releases/download/%{version}/%{name}-%{version}.tar.xz
+Source0:        https://github.com/martinpitt/%{name}/releases/download/%{version}/%{name}-%{version}.tar.xz
 BuildArch:      noarch
 BuildRequires:  libappstream-glib
 BuildRequires:  make

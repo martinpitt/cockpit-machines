@@ -55,7 +55,7 @@ jobs:
       # HACK: tarball for releases (copr_build, koji, etc.), copying spec's Source0; this
       # really should be the default, see https://github.com/packit/packit-service/issues/1505
       create-archive:
-        - sh -exc "curl -L -O https://github.com/cockpit-project/cockpit-machines/releases/download/${PACKIT_PROJECT_VERSION}/${PACKIT_PROJECT_NAME_VERSION}.tar.xz"
+        - sh -exc "curl -L -O https://github.com/martinpitt/cockpit-machines/releases/download/${PACKIT_PROJECT_VERSION}/${PACKIT_PROJECT_NAME_VERSION}.tar.xz"
         - sh -exc "ls ${PACKIT_PROJECT_NAME_VERSION}.tar.xz"
 
   - job: propose_downstream
